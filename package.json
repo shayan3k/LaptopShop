@@ -1,0 +1,21 @@
+{
+  "name": "laptop-shop",
+  "version": "1.0.0",
+  "description": "A website Designed for a Laptop seller",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --entry ./src/index.js --output-filename ./dist/index.bundle.js",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": "ShayaNNN",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "bootstrap": "^4.4.1",
+    "gsap": "^3.0.5",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  }
+}

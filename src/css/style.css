@@ -1,0 +1,72 @@
+body {
+  overflow-x: hidden;
+}
+
+#carousel-control-one,
+#carousel-control-two,
+#carousel-control-three {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  margin: 0 5px;
+  background-color: rgb(216, 251, 241);
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.wrapper>img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.wrapper>img:first-child {
+  opacity: 1;
+}
+
+.banner {
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.banner>img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#background-svg {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#background-svg>g>path {
+
+  fill: rgb(248, 248, 248);
+  stroke: black;
+  stroke-width: 5px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 4;
+
+
+}
+
+.opacity-0 {
+  opacity : 0;
+}
+
