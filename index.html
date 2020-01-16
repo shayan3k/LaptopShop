@@ -16,7 +16,7 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="bannerz">
+    <header class="container-fluid banner">
       <!-- Navbar -->
 
       <nav class="navbar navbar-expand-lg navbar-light bg-transparent px-5">
@@ -90,6 +90,77 @@
 
       <div id="background-svg"></div>
     </header>
+
+    <!-- Products -->
+
+    <section class="container-fluid my-5 py-5">
+      <div class="row">
+        <div class="col-lg-4  my-5 d-flex justify-content-center">
+          <img src="https://via.placeholder.com/300x300" alt="img" />
+        </div>
+
+        <div class="col-lg-4  my-5 d-flex justify-content-center">
+          <img src="https://via.placeholder.com/300x300" alt="img" />
+        </div>
+
+        <div class="col-lg-4 my-5 d-flex justify-content-center">
+          <img src="https://via.placeholder.com/300x300" alt="img" />
+        </div>
+
+        <div class="col-lg-4  my-5 d-flex justify-content-center">
+          <img src="https://via.placeholder.com/300x300" alt="img" />
+        </div>
+        <!-- Remaining items no going to show when screen < lg -->
+        <div class="col-lg-4 my-5 justify-content-center d-none d-lg-flex">
+          <img src="https://via.placeholder.com/300x300" alt="img" />
+        </div>
+
+        <div class="col-lg-4 my-5 justify-content-center d-none d-lg-flex">
+          <img src="https://via.placeholder.com/300x300" alt="img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- achivements -->
+
+    <section class="achivements container-fluid  w-100 px-0 py-5">
+      <div
+        class="row d-flex flex-column flex-md-row justify-content-around align-items-sm-center"
+      >
+        <div
+          class="col-lg-3 text-center text-justify p-5 border bg-white shadow rounded"
+        >
+          <h1>1230</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+            quo.
+          </p>
+          <a class="btn btn-primary mt-3" href="#">Read More</a>
+        </div>
+
+        <div
+          class="col-lg-3 text-center text-justify p-5 border bg-white shadow rounded"
+        >
+          <h1>1230</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+            quo.
+          </p>
+          <a class="btn btn-primary mt-3" href="#">Read More</a>
+        </div>
+        
+        <div
+          class="col-lg-3 text-center text-justify p-5 border bg-white shadow rounded"
+        >
+          <h1>1230</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+            quo.
+          </p>
+          <a class="btn btn-primary mt-3" href="#">Read More</a>
+        </div>
+
+    </section>
 
     <script src="./src/background-svg.js"></script>
     <script src="./node_modules/jquery/dist/jquery.js"></script>
