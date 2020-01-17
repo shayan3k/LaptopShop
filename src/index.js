@@ -17,10 +17,10 @@ function bannerAnimation() {
 
   tl.to(element, 0, { strokeDashoffset: 0 })
 
-    .to(element, 10, {
+    .to(element, 25, {
       strokeDashoffset: 50
     })
-    .to(element, 10, { strokeDashoffset: 0 });
+    .to(element, 25, { strokeDashoffset: 0 });
 
   tl.play();
 }
