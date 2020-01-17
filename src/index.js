@@ -1,29 +1,18 @@
+//Banner Animation
 const background = getBackground();
 document.getElementById("background-svg").innerHTML = background;
-
+//Banner Title Toggler
 const navbarToggler = document.querySelector(".navbar-toggler");
 const bannerTitle = document.querySelector(".banner-title");
 
-//Product Hover effect
-
-// let product = document.querySelectorAll(".product > img");
-// console.log(product);
-// product.forEach(element => {
-//   console.log(element);
-
-//   element.addEventListener("mouseenter", () => {
-//     console.log("enter");
-//   });
-//   element.addEventListener("mouseleave", () => {
-//     console.log("out");
-//   });
-// });
+////////////////////////////////////////////////////////////////////////
 
 //Banner Title Toggler
 navbarToggler.addEventListener("click", () => {
   bannerTitle.classList.toggle("opacity-0");
 });
 
+//Banner Animation
 function bannerAnimation() {
   const element = document.querySelectorAll("#background-svg > g > path");
 
@@ -38,7 +27,7 @@ function bannerAnimation() {
 
   tl.play();
 }
-// bannerAnimation();
+bannerAnimation();
 
 // ///////////////////////////////////////////////////////////////////////////////
 
