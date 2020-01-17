@@ -4,8 +4,22 @@ document.getElementById("background-svg").innerHTML = background;
 const navbarToggler = document.querySelector(".navbar-toggler");
 const bannerTitle = document.querySelector(".banner-title");
 
-console.log(bannerTitle);
+//Product Hover effect
 
+// let product = document.querySelectorAll(".product > img");
+// console.log(product);
+// product.forEach(element => {
+//   console.log(element);
+
+//   element.addEventListener("mouseenter", () => {
+//     console.log("enter");
+//   });
+//   element.addEventListener("mouseleave", () => {
+//     console.log("out");
+//   });
+// });
+
+//Banner Title Toggler
 navbarToggler.addEventListener("click", () => {
   bannerTitle.classList.toggle("opacity-0");
 });
@@ -24,8 +38,7 @@ function bannerAnimation() {
 
   tl.play();
 }
-
-bannerAnimation();
+// bannerAnimation();
 
 // ///////////////////////////////////////////////////////////////////////////////
 

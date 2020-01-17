@@ -30,6 +30,8 @@ body {
 
 .achivements {
   background: rgb(230, 229, 229);
+  background: url("../images/achivements-background.jpg") center/cover no-repeat;
+  background-attachment: fixed;
 }
 
 .products-title-wrapper {
@@ -70,6 +72,34 @@ body {
   z-index: 5;
 }
 
+.product {
+  overflow: hidden;
+  position: relative;
+}
+
+.product-wrapper {
+  position: relative;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.product-mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.582);
+  transform: translateY(-100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-wrapper:hover > .product-mask {
+  transform: translateY(0%);
+}
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //Media Breakpoint
 @media screen and (max-width: 768px) {
@@ -85,4 +115,7 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
+  #background-svg {
+    width: 100%;
+  }
 }
