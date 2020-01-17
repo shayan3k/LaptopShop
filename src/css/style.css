@@ -74,13 +74,13 @@ body {
 //Media Breakpoint
 @media screen and (max-width: 768px) {
   #background-svg {
-    width: 140%;
+    width: 160%;
   }
 }
 
 @media screen and (max-width: 992px) {
   #background-svg {
-    width: 120%;
+    width: 130%;
   }
 }
 
